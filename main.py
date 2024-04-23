@@ -3,7 +3,7 @@ import cgi
 import cgitb
 import json
 import random
-
+import requests
 
 print("Content-Type: text/html\n")
 class PokemonCollector:
