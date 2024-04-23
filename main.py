@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
+import cgi
+import cgitb
 import json
 import random
 import requests
 
+print("Content-Type: text/html\n")
 class PokemonCollector:
     def __init__(self):
         self.pokemon_data = self.load_pokemon_data()
